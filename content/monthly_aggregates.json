@@ -1,0 +1,690 @@
+{
+  "generated": "2026-06-21",
+  "source": "consolidated_campaigns.csv (478 unique campaigns)",
+  "methodology": "Per-day pro-rata: each campaign's metrics spread evenly across the days in [reporting_starts, reporting_ends].",
+  "month_count": 18,
+  "first_month": "2025-01",
+  "last_month": "2026-06",
+  "months": [
+    {
+      "month": "2025-01",
+      "inr": {
+        "spend": 870241.45,
+        "reach": 3378926,
+        "impressions": 8532144,
+        "link_clicks": 91717,
+        "clicks_all": 134410,
+        "landing_page_views": 60561,
+        "leads": 5635,
+        "purchases": 263,
+        "campaigns_active": 225
+      },
+      "usd": {
+        "spend": 2967.93,
+        "reach": 1136624,
+        "impressions": 2493276,
+        "link_clicks": 7586,
+        "clicks_all": 11990,
+        "landing_page_views": 3160,
+        "leads": 125,
+        "purchases": 44,
+        "campaigns_active": 187
+      },
+      "combined": {
+        "spend_inr": 870241.45,
+        "spend_usd": 2967.93,
+        "reach": 4515550,
+        "impressions": 11025420,
+        "link_clicks": 99303,
+        "clicks_all": 146400,
+        "landing_page_views": 63721,
+        "leads": 5760,
+        "purchases": 307
+      }
+    },
+    {
+      "month": "2025-02",
+      "inr": {
+        "spend": 1235514.44,
+        "reach": 4161413,
+        "impressions": 10724741,
+        "link_clicks": 115188,
+        "clicks_all": 174940,
+        "landing_page_views": 76806,
+        "leads": 6311,
+        "purchases": 481,
+        "campaigns_active": 225
+      },
+      "usd": {
+        "spend": 2680.71,
+        "reach": 1026628,
+        "impressions": 2251991,
+        "link_clicks": 6852,
+        "clicks_all": 10830,
+        "landing_page_views": 2854,
+        "leads": 113,
+        "purchases": 40,
+        "campaigns_active": 187
+      },
+      "combined": {
+        "spend_inr": 1235514.44,
+        "spend_usd": 2680.71,
+        "reach": 5188041,
+        "impressions": 12976732,
+        "link_clicks": 122040,
+        "clicks_all": 185770,
+        "landing_page_views": 79660,
+        "leads": 6424,
+        "purchases": 521
+      }
+    },
+    {
+      "month": "2025-03",
+      "inr": {
+        "spend": 1367890.98,
+        "reach": 4607279,
+        "impressions": 11873821,
+        "link_clicks": 127530,
+        "clicks_all": 193683,
+        "landing_page_views": 85036,
+        "leads": 6987,
+        "purchases": 533,
+        "campaigns_active": 225
+      },
+      "usd": {
+        "spend": 2967.93,
+        "reach": 1136624,
+        "impressions": 2493276,
+        "link_clicks": 7586,
+        "clicks_all": 11990,
+        "landing_page_views": 3160,
+        "leads": 125,
+        "purchases": 44,
+        "campaigns_active": 187
+      },
+      "combined": {
+        "spend_inr": 1367890.98,
+        "spend_usd": 2967.93,
+        "reach": 5743903,
+        "impressions": 14367097,
+        "link_clicks": 135116,
+        "clicks_all": 205673,
+        "landing_page_views": 88196,
+        "leads": 7112,
+        "purchases": 577
+      }
+    },
+    {
+      "month": "2025-04",
+      "inr": {
+        "spend": 1323765.47,
+        "reach": 4458657,
+        "impressions": 11490794,
+        "link_clicks": 123416,
+        "clicks_all": 187435,
+        "landing_page_views": 82292,
+        "leads": 6761,
+        "purchases": 516,
+        "campaigns_active": 225
+      },
+      "usd": {
+        "spend": 2872.19,
+        "reach": 1099959,
+        "impressions": 2412847,
+        "link_clicks": 7341,
+        "clicks_all": 11603,
+        "landing_page_views": 3058,
+        "leads": 121,
+        "purchases": 43,
+        "campaigns_active": 187
+      },
+      "combined": {
+        "spend_inr": 1323765.47,
+        "spend_usd": 2872.19,
+        "reach": 5558616,
+        "impressions": 13903641,
+        "link_clicks": 130757,
+        "clicks_all": 199038,
+        "landing_page_views": 85350,
+        "leads": 6882,
+        "purchases": 559
+      }
+    },
+    {
+      "month": "2025-05",
+      "inr": {
+        "spend": 1749199.29,
+        "reach": 6545581,
+        "impressions": 16152437,
+        "link_clicks": 171178,
+        "clicks_all": 258753,
+        "landing_page_views": 102841,
+        "leads": 10294,
+        "purchases": 533,
+        "campaigns_active": 272
+      },
+      "usd": {
+        "spend": 2967.93,
+        "reach": 1136624,
+        "impressions": 2493276,
+        "link_clicks": 7586,
+        "clicks_all": 11990,
+        "landing_page_views": 3160,
+        "leads": 125,
+        "purchases": 44,
+        "campaigns_active": 187
+      },
+      "combined": {
+        "spend_inr": 1749199.29,
+        "spend_usd": 2967.93,
+        "reach": 7682205,
+        "impressions": 18645713,
+        "link_clicks": 178764,
+        "clicks_all": 270743,
+        "landing_page_views": 106001,
+        "leads": 10419,
+        "purchases": 577
+      }
+    },
+    {
+      "month": "2025-06",
+      "inr": {
+        "spend": 1868491.62,
+        "reach": 7227661,
+        "impressions": 17603104,
+        "link_clicks": 185770,
+        "clicks_all": 280392,
+        "landing_page_views": 107728,
+        "leads": 11486,
+        "purchases": 516,
+        "campaigns_active": 272
+      },
+      "usd": {
+        "spend": 2872.19,
+        "reach": 1099959,
+        "impressions": 2412847,
+        "link_clicks": 7341,
+        "clicks_all": 11603,
+        "landing_page_views": 3058,
+        "leads": 121,
+        "purchases": 43,
+        "campaigns_active": 187
+      },
+      "combined": {
+        "spend_inr": 1868491.62,
+        "spend_usd": 2872.19,
+        "reach": 8327620,
+        "impressions": 20015951,
+        "link_clicks": 193111,
+        "clicks_all": 291995,
+        "landing_page_views": 110786,
+        "leads": 11607,
+        "purchases": 559
+      }
+    },
+    {
+      "month": "2025-07",
+      "inr": {
+        "spend": 1930774.68,
+        "reach": 7468583,
+        "impressions": 18189874,
+        "link_clicks": 191963,
+        "clicks_all": 289738,
+        "landing_page_views": 111319,
+        "leads": 11869,
+        "purchases": 533,
+        "campaigns_active": 272
+      },
+      "usd": {
+        "spend": 2967.93,
+        "reach": 1136624,
+        "impressions": 2493276,
+        "link_clicks": 7586,
+        "clicks_all": 11990,
+        "landing_page_views": 3160,
+        "leads": 125,
+        "purchases": 44,
+        "campaigns_active": 187
+      },
+      "combined": {
+        "spend_inr": 1930774.68,
+        "spend_usd": 2967.93,
+        "reach": 8605207,
+        "impressions": 20683150,
+        "link_clicks": 199549,
+        "clicks_all": 301728,
+        "landing_page_views": 114479,
+        "leads": 11994,
+        "purchases": 577
+      }
+    },
+    {
+      "month": "2025-08",
+      "inr": {
+        "spend": 1993442.77,
+        "reach": 8066542,
+        "impressions": 19373312,
+        "link_clicks": 212308,
+        "clicks_all": 314392,
+        "landing_page_views": 116903,
+        "leads": 13035,
+        "purchases": 533,
+        "campaigns_active": 284
+      },
+      "usd": {
+        "spend": 2967.93,
+        "reach": 1136624,
+        "impressions": 2493276,
+        "link_clicks": 7586,
+        "clicks_all": 11990,
+        "landing_page_views": 3160,
+        "leads": 125,
+        "purchases": 44,
+        "campaigns_active": 187
+      },
+      "combined": {
+        "spend_inr": 1993442.77,
+        "spend_usd": 2967.93,
+        "reach": 9203166,
+        "impressions": 21866588,
+        "link_clicks": 219894,
+        "clicks_all": 326382,
+        "landing_page_views": 120063,
+        "leads": 13160,
+        "purchases": 577
+      }
+    },
+    {
+      "month": "2025-09",
+      "inr": {
+        "spend": 1993827.8,
+        "reach": 8423580,
+        "impressions": 19969980,
+        "link_clicks": 226460,
+        "clicks_all": 329700,
+        "landing_page_views": 118897,
+        "leads": 13818,
+        "purchases": 516,
+        "campaigns_active": 284
+      },
+      "usd": {
+        "spend": 2872.19,
+        "reach": 1099959,
+        "impressions": 2412847,
+        "link_clicks": 7341,
+        "clicks_all": 11603,
+        "landing_page_views": 3058,
+        "leads": 121,
+        "purchases": 43,
+        "campaigns_active": 187
+      },
+      "combined": {
+        "spend_inr": 1993827.8,
+        "spend_usd": 2872.19,
+        "reach": 9523539,
+        "impressions": 22382827,
+        "link_clicks": 233801,
+        "clicks_all": 341303,
+        "landing_page_views": 121955,
+        "leads": 13939,
+        "purchases": 559
+      }
+    },
+    {
+      "month": "2025-10",
+      "inr": {
+        "spend": 2060288.73,
+        "reach": 8704366,
+        "impressions": 20635646,
+        "link_clicks": 234009,
+        "clicks_all": 340690,
+        "landing_page_views": 122860,
+        "leads": 14279,
+        "purchases": 533,
+        "campaigns_active": 284
+      },
+      "usd": {
+        "spend": 2967.93,
+        "reach": 1136624,
+        "impressions": 2493276,
+        "link_clicks": 7586,
+        "clicks_all": 11990,
+        "landing_page_views": 3160,
+        "leads": 125,
+        "purchases": 44,
+        "campaigns_active": 187
+      },
+      "combined": {
+        "spend_inr": 2060288.73,
+        "spend_usd": 2967.93,
+        "reach": 9840990,
+        "impressions": 23128922,
+        "link_clicks": 241595,
+        "clicks_all": 352680,
+        "landing_page_views": 126020,
+        "leads": 14404,
+        "purchases": 577
+      }
+    },
+    {
+      "month": "2025-11",
+      "inr": {
+        "spend": 1993827.8,
+        "reach": 8423580,
+        "impressions": 19969980,
+        "link_clicks": 226460,
+        "clicks_all": 329700,
+        "landing_page_views": 118897,
+        "leads": 13818,
+        "purchases": 516,
+        "campaigns_active": 284
+      },
+      "usd": {
+        "spend": 2872.19,
+        "reach": 1099959,
+        "impressions": 2412847,
+        "link_clicks": 7341,
+        "clicks_all": 11603,
+        "landing_page_views": 3058,
+        "leads": 121,
+        "purchases": 43,
+        "campaigns_active": 187
+      },
+      "combined": {
+        "spend_inr": 1993827.8,
+        "spend_usd": 2872.19,
+        "reach": 9523539,
+        "impressions": 22382827,
+        "link_clicks": 233801,
+        "clicks_all": 341303,
+        "landing_page_views": 121955,
+        "leads": 13939,
+        "purchases": 559
+      }
+    },
+    {
+      "month": "2025-12",
+      "inr": {
+        "spend": 2060288.73,
+        "reach": 8704366,
+        "impressions": 20635646,
+        "link_clicks": 234009,
+        "clicks_all": 340690,
+        "landing_page_views": 122860,
+        "leads": 14279,
+        "purchases": 533,
+        "campaigns_active": 284
+      },
+      "usd": {
+        "spend": 2967.93,
+        "reach": 1136624,
+        "impressions": 2493276,
+        "link_clicks": 7586,
+        "clicks_all": 11990,
+        "landing_page_views": 3160,
+        "leads": 125,
+        "purchases": 44,
+        "campaigns_active": 187
+      },
+      "combined": {
+        "spend_inr": 2060288.73,
+        "spend_usd": 2967.93,
+        "reach": 9840990,
+        "impressions": 23128922,
+        "link_clicks": 241595,
+        "clicks_all": 352680,
+        "landing_page_views": 126020,
+        "leads": 14404,
+        "purchases": 577
+      }
+    },
+    {
+      "month": "2026-01",
+      "inr": {
+        "spend": 2060288.73,
+        "reach": 8704366,
+        "impressions": 20635646,
+        "link_clicks": 234009,
+        "clicks_all": 340690,
+        "landing_page_views": 122860,
+        "leads": 14279,
+        "purchases": 533,
+        "campaigns_active": 284
+      },
+      "usd": {
+        "spend": 2967.93,
+        "reach": 1136624,
+        "impressions": 2493276,
+        "link_clicks": 7586,
+        "clicks_all": 11990,
+        "landing_page_views": 3160,
+        "leads": 125,
+        "purchases": 44,
+        "campaigns_active": 187
+      },
+      "combined": {
+        "spend_inr": 2060288.73,
+        "spend_usd": 2967.93,
+        "reach": 9840990,
+        "impressions": 23128922,
+        "link_clicks": 241595,
+        "clicks_all": 352680,
+        "landing_page_views": 126020,
+        "leads": 14404,
+        "purchases": 577
+      }
+    },
+    {
+      "month": "2026-02",
+      "inr": {
+        "spend": 1860905.95,
+        "reach": 7862008,
+        "impressions": 18638648,
+        "link_clicks": 211363,
+        "clicks_all": 307720,
+        "landing_page_views": 110970,
+        "leads": 12897,
+        "purchases": 481,
+        "campaigns_active": 284
+      },
+      "usd": {
+        "spend": 2680.71,
+        "reach": 1026628,
+        "impressions": 2251991,
+        "link_clicks": 6852,
+        "clicks_all": 10830,
+        "landing_page_views": 2854,
+        "leads": 113,
+        "purchases": 40,
+        "campaigns_active": 187
+      },
+      "combined": {
+        "spend_inr": 1860905.95,
+        "spend_usd": 2680.71,
+        "reach": 8888636,
+        "impressions": 20890639,
+        "link_clicks": 218215,
+        "clicks_all": 318550,
+        "landing_page_views": 113824,
+        "leads": 13010,
+        "purchases": 521
+      }
+    },
+    {
+      "month": "2026-03",
+      "inr": {
+        "spend": 2060288.73,
+        "reach": 8704366,
+        "impressions": 20635646,
+        "link_clicks": 234009,
+        "clicks_all": 340690,
+        "landing_page_views": 122860,
+        "leads": 14279,
+        "purchases": 533,
+        "campaigns_active": 284
+      },
+      "usd": {
+        "spend": 2967.93,
+        "reach": 1136624,
+        "impressions": 2493276,
+        "link_clicks": 7586,
+        "clicks_all": 11990,
+        "landing_page_views": 3160,
+        "leads": 125,
+        "purchases": 44,
+        "campaigns_active": 187
+      },
+      "combined": {
+        "spend_inr": 2060288.73,
+        "spend_usd": 2967.93,
+        "reach": 9840990,
+        "impressions": 23128922,
+        "link_clicks": 241595,
+        "clicks_all": 352680,
+        "landing_page_views": 126020,
+        "leads": 14404,
+        "purchases": 577
+      }
+    },
+    {
+      "month": "2026-04",
+      "inr": {
+        "spend": 1993827.8,
+        "reach": 8423580,
+        "impressions": 19969980,
+        "link_clicks": 226460,
+        "clicks_all": 329700,
+        "landing_page_views": 118897,
+        "leads": 13818,
+        "purchases": 516,
+        "campaigns_active": 284
+      },
+      "usd": {
+        "spend": 2872.19,
+        "reach": 1099959,
+        "impressions": 2412847,
+        "link_clicks": 7341,
+        "clicks_all": 11603,
+        "landing_page_views": 3058,
+        "leads": 121,
+        "purchases": 43,
+        "campaigns_active": 187
+      },
+      "combined": {
+        "spend_inr": 1993827.8,
+        "spend_usd": 2872.19,
+        "reach": 9523539,
+        "impressions": 22382827,
+        "link_clicks": 233801,
+        "clicks_all": 341303,
+        "landing_page_views": 121955,
+        "leads": 13939,
+        "purchases": 559
+      }
+    },
+    {
+      "month": "2026-05",
+      "inr": {
+        "spend": 2060288.73,
+        "reach": 8704366,
+        "impressions": 20635646,
+        "link_clicks": 234009,
+        "clicks_all": 340690,
+        "landing_page_views": 122860,
+        "leads": 14279,
+        "purchases": 533,
+        "campaigns_active": 284
+      },
+      "usd": {
+        "spend": 2967.93,
+        "reach": 1136624,
+        "impressions": 2493276,
+        "link_clicks": 7586,
+        "clicks_all": 11990,
+        "landing_page_views": 3160,
+        "leads": 125,
+        "purchases": 44,
+        "campaigns_active": 187
+      },
+      "combined": {
+        "spend_inr": 2060288.73,
+        "spend_usd": 2967.93,
+        "reach": 9840990,
+        "impressions": 23128922,
+        "link_clicks": 241595,
+        "clicks_all": 352680,
+        "landing_page_views": 126020,
+        "leads": 14404,
+        "purchases": 577
+      }
+    },
+    {
+      "month": "2026-06",
+      "inr": {
+        "spend": 1395679.46,
+        "reach": 5896506,
+        "impressions": 13978986,
+        "link_clicks": 158522,
+        "clicks_all": 230790,
+        "landing_page_views": 83228,
+        "leads": 9673,
+        "purchases": 361,
+        "campaigns_active": 284
+      },
+      "usd": {
+        "spend": 2010.53,
+        "reach": 769971,
+        "impressions": 1688993,
+        "link_clicks": 5139,
+        "clicks_all": 8122,
+        "landing_page_views": 2141,
+        "leads": 85,
+        "purchases": 30,
+        "campaigns_active": 187
+      },
+      "combined": {
+        "spend_inr": 1395679.46,
+        "spend_usd": 2010.53,
+        "reach": 6666477,
+        "impressions": 15667979,
+        "link_clicks": 163661,
+        "clicks_all": 238912,
+        "landing_page_views": 85369,
+        "leads": 9758,
+        "purchases": 391
+      }
+    }
+  ],
+  "totals": {
+    "inr": {
+      "spend": 31878833.160000004,
+      "reach": 128465726,
+      "impressions": 309646031,
+      "link_clicks": 3438380,
+      "clicks_all": 5064803,
+      "landing_page_views": 1908675,
+      "leads": 207797,
+      "purchases": 8963
+    },
+    "usd": {
+      "spend": 51412.2,
+      "reach": 19689262,
+      "impressions": 43189970,
+      "link_clicks": 131408,
+      "clicks_all": 207697,
+      "landing_page_views": 54739,
+      "leads": 2166,
+      "purchases": 765
+    },
+    "combined": {
+      "spend": null,
+      "reach": 148154988,
+      "impressions": 352836001,
+      "link_clicks": 3569788,
+      "clicks_all": 5272500,
+      "landing_page_views": 1963414,
+      "leads": 209963,
+      "purchases": 9728
+    }
+  }
+}

@@ -1,0 +1,710 @@
+{
+  "generated": "2026-06-21",
+  "source": "reports/portfolio-data-summary.md",
+  "bySpendINR": [
+    {
+      "Client": "SSA-X-SATYAM-KHANDELWAL",
+      "Campaign": "MSXSK Sales Campaign 9.2.26",
+      "Spend": "₹29.13L",
+      "Reach": "3,208,810",
+      "Impressions": "18,562,623",
+      "Link Clicks": "198,263",
+      "CTR": "1.07%",
+      "CPL": "₹1,266",
+      "Leads": "0"
+    },
+    {
+      "Client": "SSA-X-SATYAM-KHANDELWAL",
+      "Campaign": "MSXSK Sales Campaign 11/08/25",
+      "Spend": "₹21.41L",
+      "Reach": "2,359,644",
+      "Impressions": "12,296,369",
+      "Link Clicks": "106,701",
+      "CTR": "0.87%",
+      "CPL": "₹967.04",
+      "Leads": "0"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "FML-C2-WN",
+      "Spend": "₹19.42L",
+      "Reach": "6,785,644",
+      "Impressions": "21,196,943",
+      "Link Clicks": "186,283",
+      "CTR": "0.88%",
+      "CPL": "₹139.61",
+      "Leads": "13,909"
+    },
+    {
+      "Client": "A-hishek-Pal---FML",
+      "Campaign": "FML ABO MASTER CAMPAIGN",
+      "Spend": "₹19.27L",
+      "Reach": "6,196,129",
+      "Impressions": "21,853,562",
+      "Link Clicks": "182,640",
+      "CTR": "0.84%",
+      "CPL": "₹155.95",
+      "Leads": "12,359"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "FML-C1-BROAD - ENGAGED SHOPPERS",
+      "Spend": "₹12.29L",
+      "Reach": "5,387,028",
+      "Impressions": "17,372,720",
+      "Link Clicks": "90,302",
+      "CTR": "0.52%",
+      "CPL": "₹75.78",
+      "Leads": "16,221"
+    },
+    {
+      "Client": "A-hishek-Pal---FML",
+      "Campaign": "FML- ABO 2 [22-12-25]",
+      "Spend": "₹10.46L",
+      "Reach": "4,099,909",
+      "Impressions": "10,907,458",
+      "Link Clicks": "78,688",
+      "CTR": "0.72%",
+      "CPL": "₹150.66",
+      "Leads": "6,942"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "FML-P2-002",
+      "Spend": "₹10.05L",
+      "Reach": "4,456,684",
+      "Impressions": "13,067,305",
+      "Link Clicks": "65,228",
+      "CTR": "0.50%",
+      "CPL": "₹137.44",
+      "Leads": "7,311"
+    },
+    {
+      "Client": "Piyush-Ahuja",
+      "Campaign": "FML-ABO",
+      "Spend": "₹10.00L",
+      "Reach": "6,285,647",
+      "Impressions": "16,472,985",
+      "Link Clicks": "282,241",
+      "CTR": "1.71%",
+      "CPL": "₹49.54",
+      "Leads": "20,177"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "Foremost Leads <> 2103 CBO S2",
+      "Spend": "₹8.54L",
+      "Reach": "4,211,574",
+      "Impressions": "10,345,583",
+      "Link Clicks": "80,418",
+      "CTR": "0.78%",
+      "CPL": "₹108.29",
+      "Leads": "7,885"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "FML-AM1-ABO",
+      "Spend": "₹7.94L",
+      "Reach": "5,388,790",
+      "Impressions": "11,235,377",
+      "Link Clicks": "252,532",
+      "CTR": "2.25%",
+      "CPL": "₹113.04",
+      "Leads": "7,021"
+    }
+  ],
+  "bySpendUSD": [
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "GN - CA - Scale - CBO -  oSales",
+      "Spend": "$7.8K",
+      "Reach": "1,521,843",
+      "Impressions": "3,885,968",
+      "Link Clicks": "9,146",
+      "CTR": "0.24%",
+      "CPL": "$89.11",
+      "Leads": "0"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "WH - CA - Audience Testing - ABO - Sales",
+      "Spend": "$7.6K",
+      "Reach": "1,165,041",
+      "Impressions": "2,430,912",
+      "Link Clicks": "7,908",
+      "CTR": "0.33%",
+      "CPL": "—",
+      "Leads": "0"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "GN - CA - Creative Testing - ABO - oSales",
+      "Spend": "$5.9K",
+      "Reach": "1,503,944",
+      "Impressions": "3,949,097",
+      "Link Clicks": "9,434",
+      "CTR": "0.24%",
+      "CPL": "—",
+      "Leads": "0"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "[BRO] TOF / ABO / CONV / Video / 15.07.23",
+      "Spend": "$5.8K",
+      "Reach": "1,052,045",
+      "Impressions": "1,686,884",
+      "Link Clicks": "9,512",
+      "CTR": "0.56%",
+      "CPL": "$47.76",
+      "Leads": "0"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "[BRO] АBO / Scale 47$ / USA / 29.05.23",
+      "Spend": "$5.4K",
+      "Reach": "128,659",
+      "Impressions": "334,044",
+      "Link Clicks": "2,954",
+      "CTR": "0.88%",
+      "CPL": "$29.17",
+      "Leads": "0"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "[BRO] TOF / WorldWide ENG+Hindi / 21.06.23",
+      "Spend": "$4.9K",
+      "Reach": "559,192",
+      "Impressions": "1,268,930",
+      "Link Clicks": "7,757",
+      "CTR": "0.61%",
+      "CPL": "$30.40",
+      "Leads": "0"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "2024-ToF-ITLM-US-197-Feb21",
+      "Spend": "$4.8K",
+      "Reach": "77,294",
+      "Impressions": "208,600",
+      "Link Clicks": "1,820",
+      "CTR": "0.87%",
+      "CPL": "—",
+      "Leads": "0"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "MOF / ABO / 25.07.23",
+      "Spend": "$4.3K",
+      "Reach": "1,432,684",
+      "Impressions": "3,128,642",
+      "Link Clicks": "11,036",
+      "CTR": "0.35%",
+      "CPL": "$37.20",
+      "Leads": "0"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "TOF / CBO / WW / New Video / 25.07.23",
+      "Spend": "$4.3K",
+      "Reach": "538,533",
+      "Impressions": "1,003,966",
+      "Link Clicks": "7,172",
+      "CTR": "0.71%",
+      "CPL": "$34.33",
+      "Leads": "0"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "[BRO] TOF / WorldWide Stucks / 29.06.23",
+      "Spend": "$3.3K",
+      "Reach": "382,138",
+      "Impressions": "781,968",
+      "Link Clicks": "3,113",
+      "CTR": "0.40%",
+      "CPL": "$66.53",
+      "Leads": "0"
+    }
+  ],
+  "byReach": [
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "Retargeting-All-2024-MoF-ITLM",
+      "Spend": "$1.2K",
+      "Reach": "11,712,200",
+      "Impressions": "32,867,481",
+      "Frequency": "2.81",
+      "CPM": "$0.04"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "FML-C2-WN",
+      "Spend": "₹19.42L",
+      "Reach": "6,785,644",
+      "Impressions": "21,196,943",
+      "Frequency": "3.12",
+      "CPM": "₹91.61"
+    },
+    {
+      "Client": "Piyush-Ahuja",
+      "Campaign": "FML-ABO",
+      "Spend": "₹10.00L",
+      "Reach": "6,285,647",
+      "Impressions": "16,472,985",
+      "Frequency": "2.62",
+      "CPM": "₹60.68"
+    },
+    {
+      "Client": "A-hishek-Pal---FML",
+      "Campaign": "FML ABO MASTER CAMPAIGN",
+      "Spend": "₹19.27L",
+      "Reach": "6,196,129",
+      "Impressions": "21,853,562",
+      "Frequency": "3.53",
+      "CPM": "₹88.19"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "FML-AM1-ABO",
+      "Spend": "₹7.94L",
+      "Reach": "5,388,790",
+      "Impressions": "11,235,377",
+      "Frequency": "2.08",
+      "CPM": "₹70.64"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "FML-C1-BROAD - ENGAGED SHOPPERS",
+      "Spend": "₹12.29L",
+      "Reach": "5,387,028",
+      "Impressions": "17,372,720",
+      "Frequency": "3.22",
+      "CPM": "₹70.76"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "FML-C1-002",
+      "Spend": "₹7.93L",
+      "Reach": "4,687,375",
+      "Impressions": "12,093,316",
+      "Frequency": "2.58",
+      "CPM": "₹65.61"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "FML-P2-002",
+      "Spend": "₹10.05L",
+      "Reach": "4,456,684",
+      "Impressions": "13,067,305",
+      "Frequency": "2.93",
+      "CPM": "₹76.90"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "Foremost Leads <> 2103 CBO S2",
+      "Spend": "₹8.54L",
+      "Reach": "4,211,574",
+      "Impressions": "10,345,583",
+      "Frequency": "2.46",
+      "CPM": "₹82.53"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "FML-P1-002",
+      "Spend": "₹6.40L",
+      "Reach": "4,129,295",
+      "Impressions": "8,136,557",
+      "Frequency": "1.97",
+      "CPM": "₹78.64"
+    }
+  ],
+  "byCTR": [
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "FML-OG-CAMPAIGN",
+      "CTR (link)": "13.15%",
+      "Link Clicks": "5,271",
+      "Impressions": "40,094",
+      "Spend": "₹10.8K"
+    },
+    {
+      "Client": "A-hishek-Pal---FML",
+      "Campaign": "FML-CBO 3 [19-12-25]",
+      "CTR (link)": "11.52%",
+      "Link Clicks": "6,107",
+      "Impressions": "52,992",
+      "Spend": "₹4.4K"
+    },
+    {
+      "Client": "A-hishek-Pal---FML",
+      "Campaign": "FML-CBO 2 [19-12-25]",
+      "CTR (link)": "9.40%",
+      "Link Clicks": "1,491",
+      "Impressions": "15,858",
+      "Spend": "₹1.8K"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "FML- CBO- S",
+      "CTR (link)": "8.41%",
+      "Link Clicks": "52,225",
+      "Impressions": "621,350",
+      "Spend": "₹41.4K"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "RETARGETING-CAMPAIGN [22-12-25]",
+      "CTR (link)": "7.52%",
+      "Link Clicks": "63,898",
+      "Impressions": "849,580",
+      "Spend": "₹61.9K"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "FML-TEST CAMPAIGN",
+      "CTR (link)": "7.23%",
+      "Link Clicks": "4,598",
+      "Impressions": "63,598",
+      "Spend": "₹4.5K"
+    },
+    {
+      "Client": "A-hishek-Pal---FML",
+      "Campaign": "FML-P1  [01-12-25]",
+      "CTR (link)": "7.08%",
+      "Link Clicks": "11,310",
+      "Impressions": "159,823",
+      "Spend": "₹10.6K"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "FML-CPRG-CBO-P1 [12-12-25] CPRG",
+      "CTR (link)": "6.73%",
+      "Link Clicks": "6,006",
+      "Impressions": "89,218",
+      "Spend": "₹3.9K"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "FML-C3-ABO-002  [09-12-25]",
+      "CTR (link)": "6.07%",
+      "Link Clicks": "8,176",
+      "Impressions": "134,662",
+      "Spend": "₹9.1K"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "FML-P1-002 – Copy _ CPRG",
+      "CTR (link)": "5.84%",
+      "Link Clicks": "5,216",
+      "Impressions": "89,344",
+      "Spend": "₹4.1K"
+    }
+  ],
+  "lowestCPLINR": [
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "FML-OG-CAMPAIGN",
+      "CPL": "₹34.29",
+      "Leads": "314",
+      "Spend": "₹10.8K"
+    },
+    {
+      "Client": "A-hishek-Pal---FML",
+      "Campaign": "FML-C1",
+      "CPL": "₹38.47",
+      "Leads": "5,948",
+      "Spend": "₹2.29L"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "FML-C1-BROAD - TRAVEL INTERESTS",
+      "CPL": "₹39.93",
+      "Leads": "334",
+      "Spend": "₹13.3K"
+    },
+    {
+      "Client": "Piyush-Ahuja",
+      "Campaign": "FML-CBO-1",
+      "CPL": "₹41.09",
+      "Leads": "832",
+      "Spend": "₹34.2K"
+    },
+    {
+      "Client": "Piyush-Ahuja",
+      "Campaign": "FML-ABO",
+      "CPL": "₹49.54",
+      "Leads": "20,177",
+      "Spend": "₹10.00L"
+    },
+    {
+      "Client": "Piyush-Ahuja",
+      "Campaign": "FML-P1",
+      "CPL": "₹49.62",
+      "Leads": "614",
+      "Spend": "₹30.5K"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "FML-TEST-INSTANT-FORM",
+      "CPL": "₹55.10",
+      "Leads": "4,110",
+      "Spend": "₹2.26L"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "FML-C1-002",
+      "CPL": "₹56.33",
+      "Leads": "14,085",
+      "Spend": "₹7.93L"
+    },
+    {
+      "Client": "A-hishek-Pal---FML",
+      "Campaign": "FML-CBO-TRAVEL-001",
+      "CPL": "₹58.76",
+      "Leads": "5,391",
+      "Spend": "₹3.17L"
+    },
+    {
+      "Client": "A-hishek-Pal---FML",
+      "Campaign": "FML-CBO-OG",
+      "CPL": "₹59.93",
+      "Leads": "4,806",
+      "Spend": "₹2.88L"
+    }
+  ],
+  "lowestCPLUSD": [
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "2024-ToF-DLC-Leads1-India",
+      "CPL": "$0.36",
+      "Leads": "230",
+      "Spend": "$83.11"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "[BRO] TOF / ABO / Book DCO / India / 24.05.23",
+      "CPL": "$0.79",
+      "Leads": "845",
+      "Spend": "$665.66"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "2024-ToF-UTIL2-D497-Campaign-Raj",
+      "CPL": "$0.84",
+      "Leads": "1,577",
+      "Spend": "$1.3K"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "2024-Webinar-Live-Q2-Campaign",
+      "CPL": "$0.95",
+      "Leads": "752",
+      "Spend": "$717.89"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "Foremost Leads <> RY <> 08/06 <> Leads",
+      "CPL": "$1.51",
+      "Leads": "99",
+      "Spend": "$149.15"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "RajTesting-Webinar-Campaign",
+      "CPL": "$1.98",
+      "Leads": "580",
+      "Spend": "$1.2K"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "2026Q1-ToF-C1-Leads-DNA-India",
+      "CPL": "$2.21",
+      "Leads": "80",
+      "Spend": "$177.18"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "2024-ToF-FITL-India-May-Leads",
+      "CPL": "$2.54",
+      "Leads": "181",
+      "Spend": "$459.56"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "Foremost Leads <> RY <> 11/06 <> ABO",
+      "CPL": "$4.34",
+      "Leads": "52",
+      "Spend": "$225.88"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "2024-ToF-FITL-US-May-Leads",
+      "CPL": "$12.23",
+      "Leads": "24",
+      "Spend": "$293.49"
+    }
+  ],
+  "lowestCPMINR": [
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "ForemostLeads-GS-13-09-10<5>AD SET – 2",
+      "CPM": "₹7.90",
+      "Impressions": "108,192",
+      "Reach": "99,673",
+      "Spend": "₹854.63"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "ForemostLeads-GS-13-09-10<5>AD SET – 3",
+      "CPM": "₹8.63",
+      "Impressions": "96,544",
+      "Reach": "89,002",
+      "Spend": "₹832.75"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "ForemostLeads-GS-13-09-10<5>AD SET – 4 – Copy",
+      "CPM": "₹10.96",
+      "Impressions": "38,952",
+      "Reach": "35,435",
+      "Spend": "₹426.89"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "ForemostLeads-GS-13-09-10<5>AD SET",
+      "CPM": "₹13.10",
+      "Impressions": "71,177",
+      "Reach": "62,856",
+      "Spend": "₹932.41"
+    },
+    {
+      "Client": "FML-X-ABHISHEK-PAL",
+      "Campaign": "ForemostLeads-GS-13-09-10<5>AD SET – 4",
+      "CPM": "₹14.34",
+      "Impressions": "55,731",
+      "Reach": "50,401",
+      "Spend": "₹799.24"
+    },
+    {
+      "Client": "Piyush-Ahuja",
+      "Campaign": "FML-AB0 [12-12-25]",
+      "CPM": "₹22.08",
+      "Impressions": "1,718,527",
+      "Reach": "1,306,494",
+      "Spend": "₹37.9K"
+    },
+    {
+      "Client": "Piyush-Ahuja",
+      "Campaign": "FML-ABO -P1",
+      "CPM": "₹30.50",
+      "Impressions": "1,958,258",
+      "Reach": "1,433,491",
+      "Spend": "₹59.7K"
+    },
+    {
+      "Client": "Piyush-Ahuja",
+      "Campaign": "FML-CB0 [12-12-25]",
+      "CPM": "₹30.88",
+      "Impressions": "575,153",
+      "Reach": "512,754",
+      "Spend": "₹17.8K"
+    },
+    {
+      "Client": "Piyush-Ahuja",
+      "Campaign": "FML-CBO -BIDCAP",
+      "CPM": "₹31.51",
+      "Impressions": "1,973,311",
+      "Reach": "1,567,849",
+      "Spend": "₹62.2K"
+    },
+    {
+      "Client": "A-hishek-Pal---FML",
+      "Campaign": "FML-C3-TRAVEL",
+      "CPM": "₹35.62",
+      "Impressions": "551,282",
+      "Reach": "414,057",
+      "Spend": "₹19.6K"
+    }
+  ],
+  "lowestCPMUSD": [
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "Retargeting-All-2024-MoF-ITLM",
+      "CPM": "$0.04",
+      "Impressions": "32,867,481",
+      "Reach": "11,712,200",
+      "Spend": "$1.2K"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "2025-Dec-ToF-C1-DNA-Club-Sales-India",
+      "CPM": "$0.10",
+      "Impressions": "3,481,796",
+      "Reach": "1,867,972",
+      "Spend": "$362.83"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "TOF / CBO / India / Top Hooks Rupees / 11.08.23",
+      "CPM": "$0.11",
+      "Impressions": "1,636,383",
+      "Reach": "1,427,631",
+      "Spend": "$175.97"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "2026Jan-DNA-India-Engagement Campaign",
+      "CPM": "$0.16",
+      "Impressions": "922,062",
+      "Reach": "453,801",
+      "Spend": "$143.44"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "WH \\",
+      "CPM": "CA \\",
+      "Impressions": "\\",
+      "Reach": "ToF - India - INR Image Ads",
+      "Spend": "$0.22"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "2025-Nov-ToF-C1-DNA-Club-Sales-India",
+      "CPM": "$0.24",
+      "Impressions": "2,668,615",
+      "Reach": "1,430,771",
+      "Spend": "$632.95"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "2025Q3-ToF-GenAI-LiveCourse-Campaign1-India",
+      "CPM": "$0.25",
+      "Impressions": "1,113,547",
+      "Reach": "556,066",
+      "Spend": "$283.69"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "2025Q3-ToF-DLM-withAI-India-Campaign1",
+      "CPM": "$0.26",
+      "Impressions": "799,463",
+      "Reach": "468,844",
+      "Spend": "$204.14"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "26Mar-EDNA-Sales-India",
+      "CPM": "$0.34",
+      "Impressions": "695,930",
+      "Reach": "399,257",
+      "Spend": "$233.98"
+    },
+    {
+      "Client": "RAJ-POLANKI",
+      "Campaign": "TOF / CBO / India Rupees / Top 3 / 97$ / 11.08.23",
+      "CPM": "$0.39",
+      "Impressions": "407,728",
+      "Reach": "357,341",
+      "Spend": "$160.48"
+    }
+  ]
+}

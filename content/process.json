@@ -1,0 +1,98 @@
+{
+  "generated": "2026-06-21",
+  "source": "case-studies.md cross-case-study patterns",
+  "steps": [
+    {
+      "id": "research",
+      "step": 1,
+      "icon": "Search",
+      "title": "Research",
+      "tagline": "Every campaign starts with a hypothesis, not a budget.",
+      "description": "I start every campaign with a pre-registered decision rule: a specific CPL or ROAS threshold, a kill threshold, and a scale threshold. The hypothesis is written before the budget is set. The decision rule is what makes the test fair — without it, every campaign ends in a vibes-based 'let me check tomorrow' loop.",
+      "exampleCampaign": "FML-OG-CAMPAIGN",
+      "stat": {
+        "label": "Decision rules pre-registered on every test",
+        "value": "100%"
+      },
+      "tools": [
+        "Notion",
+        "Google Sheets",
+        "Meta Ads Manager"
+      ]
+    },
+    {
+      "id": "creative-testing",
+      "step": 2,
+      "icon": "FlaskConical",
+      "title": "Creative Testing",
+      "tagline": "Single-variable isolation. One concept per ad set. No algorithmic bias.",
+      "description": "Every winning creative in this portfolio beat its peers in an isolation test — one concept per ad set, equal budget, impression caps to suppress algorithmic bias. I run hook × format matrices (24 variants in MSXSK, 18 in GN-CA Scale) and only scale the top 3. The dominant winner-format: testimonial-led video (won 71% of head-to-head tests on the largest purchase campaign).",
+      "exampleCampaign": "FML-OG-CAMPAIGN (13.15% CTR, ₹34.29 CPL)",
+      "stat": {
+        "label": "Testimonial-led video win-rate (MSXSK)",
+        "value": "71%"
+      },
+      "tools": [
+        "Meta Creative Hub",
+        "Canva",
+        "Capcut",
+        "Fiverr"
+      ]
+    },
+    {
+      "id": "audience-testing",
+      "step": 3,
+      "icon": "Users",
+      "title": "Audience Testing",
+      "tagline": "Life-stage beats interest for utility. Purchasers beat video-viewers for LAL seeding.",
+      "description": "I test audience hypotheses with the same discipline I test creatives: 8-cell matrices, equal budget per cell, pre-registered decision rules. The life-stage vs interest test on 2024-ToF-UTIL2-D497 won 3 of 4 head-to-head cells. The rule I ship across the portfolio: always seed LALs from the bottom of the funnel, not from video viewers.",
+      "exampleCampaign": "2024-ToF-UTIL2-D497 ($0.84/lead, 1,577 leads)",
+      "stat": {
+        "label": "Life-stage CPL vs interest CPL",
+        "value": "$0.71 vs $2.40"
+      },
+      "tools": [
+        "Meta Ads Manager",
+        "GA4",
+        "Looker Studio"
+      ]
+    },
+    {
+      "id": "scaling",
+      "step": 4,
+      "icon": "TrendingUp",
+      "title": "Scaling",
+      "tagline": "20% per week. Hard pause at 7-day ROAS < 2.5×. LAL refresh every 14 days.",
+      "description": "The 20% daily-budget step rule is the single biggest scaling discipline in the portfolio. A 100% jump from ₹4K/day to ₹8K/day dropped MSXSK ROAS to 2.8× for 6 days; the same scale in three 20% steps kept ROAS in the 4.0–4.5× band. Hard kill thresholds protect every scale motion: any ad set whose 7-day rolling CPA drifts >20% above the campaign median gets paused.",
+      "exampleCampaign": "MSXSK Sales Campaign 9.2.26 (₹29.13L spend, 2,301 purchases)",
+      "stat": {
+        "label": "Largest single-campaign spend",
+        "value": "₹29.13L+"
+      },
+      "tools": [
+        "Meta Ads Manager",
+        "Looker Studio",
+        "Google Sheets"
+      ]
+    },
+    {
+      "id": "optimization",
+      "step": 5,
+      "icon": "Settings",
+      "title": "Optimization",
+      "tagline": "Spend-weighted reporting. Kill-threshold enforcement. Weekly creative refresh.",
+      "description": "I optimise against a P&L, not a dashboard. Every portfolio-level average I report is spend-weighted (so a ₹1L spend campaign moves the needle more than a ₹1K test). The kill-threshold log is enforced every Friday. The retargeting layer is a permanent fixture across every FML-X-ABHISHEK-PAL campaign structure — site-visitor / IG-FB engaged / video-75% viewer cohorts, mutually exclusive, 2/day frequency cap.",
+      "exampleCampaign": "RETARGETING-CAMPAIGN [22-12-25] (7.52% CTR)",
+      "stat": {
+        "label": "Retargeting CTR vs cold prospecting",
+        "value": "6.7×"
+      },
+      "tools": [
+        "Meta Ads Manager",
+        "Meta Pixel + CAPI",
+        "Supermetrics",
+        "Looker Studio"
+      ]
+    }
+  ]
+}

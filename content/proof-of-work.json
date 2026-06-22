@@ -1,0 +1,253 @@
+{
+  "generated": "2026-06-21",
+  "source": "proof-of-work.md",
+  "groups": [
+    {
+      "order": 1,
+      "title": "Meta Ads Manager dashboards (10 screenshots)",
+      "items": [
+        [
+          "#",
+          "Screenshot",
+          "File path",
+          "Purpose on the site"
+        ],
+        [
+          "1",
+          "**Campaign structure — FML ABO MASTER**",
+          "`assets/dashboards/abo_structure.png`",
+          "Shows the 4-ad-set ABO architecture (Case Study 2)"
+        ],
+        [
+          "2",
+          "**Campaign structure — MSXSK CBO**",
+          "`assets/dashboards/cbo_structure.png`",
+          "Shows the 4-ad-set CBO with 8-creative matrix (Case Study 3)"
+        ],
+        [
+          "3",
+          "**CTR leaderboard — top 10 campaigns**",
+          "`assets/dashboards/ctr_leaderboard.png`",
+          "Demonstrates 13.15% / 11.52% / 9.40% winners (Card 5)"
+        ],
+        [
+          "4",
+          "**CPL leaderboard — INR**",
+          "`assets/dashboards/cpl_leaderboard_inr.png`",
+          "Demonstrates ₹34.29 / ₹38.47 / ₹39.93 winners (Bonus card)"
+        ],
+        [
+          "5",
+          "**CPL leaderboard — USD**",
+          "`assets/dashboards/cpl_leaderboard_usd.png`",
+          "Demonstrates $0.36 / $0.79 / $0.84 winners"
+        ],
+        [
+          "6",
+          "**Spend by client — last 12 months**",
+          "`assets/dashboards/spend_by_client.png`",
+          "Visualizes the ₹3.19Cr / $108K split"
+        ],
+        [
+          "7",
+          "**Reach + Impressions timeline**",
+          "`assets/dashboards/reach_timeline.png`",
+          "Shows 16.98Cr reach / 40.04Cr impressions trajectory"
+        ],
+        [
+          "8",
+          "**Funnel breakdown (TOF / MOF / BOF)**",
+          "`assets/dashboards/funnel_breakdown.png`",
+          "Shows the 55% / 25% / 20% split (Recruiter Brief)"
+        ],
+        [
+          "9",
+          "**Kill-threshold log**",
+          "`assets/dashboards/kill_log.png`",
+          "Shows the discipline (Operating Principles)"
+        ],
+        [
+          "10",
+          "**LAL refresh cadence chart**",
+          "`assets/dashboards/lal_refresh.png`",
+          "Shows the 14-day cadence (Case Study 5)"
+        ]
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Winning creative samples (6 anonymized)",
+      "items": [
+        [
+          "#",
+          "Creative",
+          "Source campaign",
+          "File path"
+        ],
+        [
+          "1",
+          "**FML-OG winner** (9:16 UGC hook)",
+          "FML-OG-CAMPAIGN (13.15% CTR)",
+          "`assets/creatives/fml_og_winner.mp4`"
+        ],
+        [
+          "2",
+          "**FML-CBO 3 winner**",
+          "FML-CBO 3 [19-12-25] (11.52% CTR)",
+          "`assets/creatives/fml_cbo3_winner.mp4`"
+        ],
+        [
+          "3",
+          "**MSXSK founder-talking-head**",
+          "MSXSK Sales Campaign 9.2.26",
+          "`assets/creatives/msxsk_founder.mp4`"
+        ],
+        [
+          "4",
+          "**MSXSK UGC testimonial**",
+          "MSXSK Sales Campaign 9.2.26",
+          "`assets/creatives/msxsk_ugc.mp4`"
+        ],
+        [
+          "5",
+          "**GN-CA winner hook**",
+          "GN - CA - Scale - CBO - oSales",
+          "`assets/creatives/gn_ca_winner.mp4`"
+        ],
+        [
+          "6",
+          "**UTIL2-D497 winner**",
+          "2024-ToF-UTIL2-D497-Campaign-Raj",
+          "`assets/creatives/util2_d497_winner.mp4`"
+        ]
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Test methodology docs (3 PDFs)",
+      "items": [
+        [
+          "#",
+          "Doc",
+          "File path",
+          "Where it lives on the site"
+        ],
+        [
+          "1",
+          "**Creative testing playbook** (the FML-OG isolation protocol)",
+          "`assets/docs/creative_test_playbook.pdf`",
+          "Case Study 1 → 'Learnings' section"
+        ],
+        [
+          "2",
+          "**20% step rule + kill thresholds** (the operating manual)",
+          "`assets/docs/operating_rules.pdf`",
+          "Experience section → Operating Principles"
+        ],
+        [
+          "3",
+          "**Audience testing matrix** (the UTIL2-D497 protocol)",
+          "`assets/docs/audience_test_playbook.pdf`",
+          "Case Study 6 → 'Learnings' section"
+        ]
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Before / after comparisons (4 panels)",
+      "items": [
+        [
+          "#",
+          "Comparison",
+          "Before",
+          "After",
+          "File path"
+        ],
+        [
+          "1",
+          "**MSXSK CPP** (Pixel-only → CAPI-on)",
+          "₹1,615",
+          "₹1,266",
+          "`assets/beforeafter/msxsk_capi.png`"
+        ],
+        [
+          "2",
+          "**MSXSK ROAS** (100% budget jump vs 20% step)",
+          "2.8× (5 days)",
+          "4.2× (steady)",
+          "`assets/beforeafter/msxsk_step_rule.png`"
+        ],
+        [
+          "3",
+          "**FML-OG CTR** (broad-audience vs LAL-seeded)",
+          "13.15% (broad)",
+          "15.4% (LAL)",
+          "`assets/beforeafter/fml_og_lal.png`"
+        ],
+        [
+          "4",
+          "**Retargeting CPL** (overlap → mutually-exclusive)",
+          "baseline",
+          "-18%",
+          "`assets/beforeafter/retargeting_exclusion.png`"
+        ]
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Anonymization checklist",
+      "items": [
+        [
+          "text",
+          "[ ] Client brand names obfuscated in screenshots (or replaced with the FML / SSA / RAJ / Piyush / Agrika labels used in this portfolio)."
+        ],
+        [
+          "text",
+          "[ ] Any personally-identifiable user data removed (emails, names, phone numbers visible in lead-form previews)."
+        ],
+        [
+          "text",
+          "[ ] Spend / volume numbers checked against the consolidated CSV — never hand-edit a number on a dashboard image."
+        ],
+        [
+          "text",
+          "[ ] Client approval obtained for any screenshot showing live performance (formalize via NDA + consent form)."
+        ]
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Where each artifact lives in the site navigation",
+      "items": [
+        [
+          "text",
+          "**Hero** → 1 dashboard screenshot (campaign structure thumbnail)"
+        ],
+        [
+          "text",
+          "**About** → 1 founder headshot + 1 dashboard (spend by client)"
+        ],
+        [
+          "text",
+          "**Experience** → 1 dashboard per client (6 total)"
+        ],
+        [
+          "text",
+          "**Metrics Dashboard** → 5 dashboards (CTR, CPL INR, CPL USD, funnel, spend)"
+        ],
+        [
+          "text",
+          "**Case Studies** → 6 case studies, each with 3-5 screenshots + 1 winning creative"
+        ],
+        [
+          "text",
+          "**Skills** → tool logos (Meta, GA4, Looker, Canva, Capcut, Shopify, Klaviyo)"
+        ],
+        [
+          "text",
+          "**Contact** → LinkedIn / Calendly embed"
+        ]
+      ]
+    }
+  ]
+}

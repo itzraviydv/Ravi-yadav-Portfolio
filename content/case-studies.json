@@ -1,0 +1,508 @@
+{
+  "generated": "2026-06-21",
+  "source": "case-studies.md",
+  "count": 6,
+  "studies": [
+    {
+      "slug": "fml-og-campaign",
+      "title": "FML-OG-CAMPAIGN",
+      "client": "FML × Abhishek Pal",
+      "currency": "INR",
+      "window": "2025-01-07 → 2026-06-21",
+      "tag": "Best CTR · Lowest CPL · Creative isolation test",
+      "objective": "> Validate a new creative-hook framework at a sub-₹15K budget **before any scaling**.\r\n\r\n- Validate a single hook × format pairing in isolation (one concept per ad set, no algorithmic bias).\r\n- Establish a CPL ceiling the rest of the campaign portfolio can be benchmarked against.\r\n- De-risk a creative hypothesis that would later be scaled into ₹50L+ monthly spend.",
+      "strategy": [
+        "**One campaign, one ad set, one creative.** Budget = ₹10,766. Zero audience / format variance.",
+        "**Placement:** Feed-only, mobile-only — to remove the feed-vs-reels confound that was muddying earlier tests.",
+        "**Audience:** Broad (no interests, no behaviours) — to test the creative alone, not the targeting.",
+        "**Optimization event:** Leads (instant form).",
+        "**Frequency cap:** 2/day per user.",
+        "**Decision rule (pre-registered):** CTR ≥ 5% AND CPL ≤ ₹100 → scale to next round. Otherwise kill."
+      ],
+      "budget": [
+        {
+          "Item": "**Total spend**",
+          "Value": "₹10,766 *(₹10.8K)*"
+        },
+        {
+          "Item": "**Daily budget**",
+          "Value": "₹200/day"
+        },
+        {
+          "Item": "**Test duration**",
+          "Value": "54 days"
+        },
+        {
+          "Item": "**Cost per decision**",
+          "Value": "₹10,766 *(cheap compared to a ₹5L scale fail)*"
+        }
+      ],
+      "results": [
+        {
+          "Metric": "**Spend**",
+          "Value": "₹10.8K+",
+          "vs Portfolio Avg": "—"
+        },
+        {
+          "Metric": "**Impressions**",
+          "Value": "40,094",
+          "vs Portfolio Avg": "—"
+        },
+        {
+          "Metric": "**Link clicks**",
+          "Value": "5,271",
+          "vs Portfolio Avg": "—"
+        },
+        {
+          "Metric": "**CTR (link)**",
+          "Value": "**13.15%**",
+          "vs Portfolio Avg": "**11.6× portfolio avg (1.13%)**"
+        },
+        {
+          "Metric": "**Leads**",
+          "Value": "314",
+          "vs Portfolio Avg": "—"
+        },
+        {
+          "Metric": "**CPL**",
+          "Value": "**₹34.29**",
+          "vs Portfolio Avg": "**~71% below portfolio avg (₹120)**"
+        },
+        {
+          "Metric": "**Reach**",
+          "Value": "28,942",
+          "vs Portfolio Avg": "—"
+        },
+        {
+          "Metric": "**CPM**",
+          "Value": "₹268.53",
+          "vs Portfolio Avg": "~95% below portfolio avg"
+        }
+      ],
+      "learnings": [
+        "**Isolated creative testing is non-negotiable.** Without the single-variable setup, this CTR would have been attributed to the audience, not the creative — and the next scale-up would have mystifyingly under-delivered.",
+        "**₹10K of validated learning saves ₹5L of failed scale.** The decision rule paid for itself 460×.",
+        "**Broad-audience testing under-reports true CTR.** Once this creative was layered with a 1% LAL seed in subsequent campaigns, CTR *rose* — confirming the creative carried the test, not the audience.",
+        "**What did NOT work:** The same hook in a static-image format hit 0.8% CTR. The hook's energy only survived in 9:16 video with sound on."
+      ],
+      "contribution": [
+        "Wrote the creative brief (hook concept, format, voiceover direction).",
+        "Briefed the UGC creator, directed the shoot (via Fiverr async review).",
+        "Set up the isolation test in Ads Manager.",
+        "Ran the 54-day test solo with a weekly performance check-in.",
+        "Folding the winner into scale campaigns (FML ABO MASTER, FML-CBO series)."
+      ],
+      "screenshots": [
+        "`cs1_creative_thumbnail.png` — the winning creative",
+        "`cs1_meta_ads_manager.png` — Ads Manager view, day 7",
+        "`cs1_meta_ads_manager.png` — Ads Manager view, day 30",
+        "`cs1_instant_form.png` — the lead form",
+        "`cs1_results_chart.png` — CTR / CPL over the 54-day test"
+      ]
+    },
+    {
+      "slug": "fml-abo-master-campaign",
+      "title": "FML ABO MASTER CAMPAIGN",
+      "client": "A Hishek Pal — FML",
+      "currency": "INR",
+      "window": "2025-05-11 → 2026-06-21",
+      "tag": "Lead-gen flagship · ABO · Always-on backbone",
+      "objective": "> Build the **always-on lead-generation backbone** for the master account. Single ABO campaign → 4 ad sets segmented by business-stage signal. Replace a fragmented set of 12+ campaigns running in parallel.\r\n\r\n- Consolidate 12+ fragmented lead-gen campaigns into one ABO.\r\n- Hold blended CPL ≤ ₹180 across the consolidated spend.\r\n- Maintain ≥10K leads/month at steady state.\r\n- Improve operational efficiency (1 campaign vs 12+).",
+      "strategy": [
+        "**Campaign structure:** Single ABO, 4 ad sets segmented by business-stage signal (Cold / Warm / Engaged / Retarget).",
+        "**Creative pool:** 12 creatives (3 hooks × 4 formats), refreshed monthly. Hooks are FML-OG-winner derivatives.",
+        "**Optimization event:** Leads (instant form) with a 24h post-submit qualification step.",
+        "**Daily-budget step:** 20% per week once ROAS guard-rail is green.",
+        "**Kill threshold:** Any ad set whose 7-day rolling CPL exceeds the campaign median +20% gets paused."
+      ],
+      "budget": [
+        {
+          "Item": "**Total spend**",
+          "Value": "₹19,27,331 *(₹19.27L)*"
+        },
+        {
+          "Item": "**Daily budget (avg)**",
+          "Value": "₹4,500/day"
+        },
+        {
+          "Item": "**Duration**",
+          "Value": "13 months (May 2025 → Jun 2026)"
+        },
+        {
+          "Item": "**Spend tier**",
+          "Value": "Mid-scale (₹50L–1Cr/month portfolio level)"
+        }
+      ],
+      "results": [
+        {
+          "Metric": "**Spend**",
+          "Value": "₹19.27L+",
+          "vs Target": "—"
+        },
+        {
+          "Metric": "**Impressions**",
+          "Value": "21,853,562",
+          "vs Target": "—"
+        },
+        {
+          "Metric": "**Link clicks**",
+          "Value": "182,640",
+          "vs Target": "—"
+        },
+        {
+          "Metric": "**CTR (link)**",
+          "Value": "0.84%",
+          "vs Target": "—"
+        },
+        {
+          "Metric": "**Leads**",
+          "Value": "**12,359**",
+          "vs Target": "✓ (≥10K/month equiv.)"
+        },
+        {
+          "Metric": "**CPL**",
+          "Value": "**₹155.95**",
+          "vs Target": "✓ (≤ ₹180 target)"
+        },
+        {
+          "Metric": "**Reach**",
+          "Value": "6,196,129",
+          "vs Target": "—"
+        }
+      ],
+      "learnings": [
+        "**ABO beats CBO for lead-gen at this scale.** When creative differentiation is the variable you want to test, ABO gives you cleaner read-throughs than CBO.",
+        "**One campaign ≠ fewer learnings.** The 4 ad sets effectively behaved like 4 parallel A/B tests (audience segment × hook).",
+        "**The kill threshold is the multiplier.** Pausing the worst performer every Friday freed up ~15% of budget for the winners.",
+        "**What did NOT work:** Reels-only creative refresh in Q3 2025 showed 30% lower CTR than the feed-9:16 mix — reverted after 3 weeks."
+      ],
+      "contribution": [
+        "Designed the ABO structure and the kill-threshold rule.",
+        "Owned the creative refresh cadence (monthly, 12 variants).",
+        "Daily monitoring (15 mins), weekly ad-set review (45 mins), monthly creative retrospective (3 hrs).",
+        "Reported CPL and volume to the client weekly; flagged any deviation > 15% within 24h."
+      ],
+      "screenshots": [
+        "`cs2_abos_structure.png` — Ads Manager ABO tree",
+        "`cs2_monthly_leads_chart.png` — leads per month over 13 months",
+        "`cs2_creative_pool.png` — the 12-creative matrix",
+        "`cs2_kill_threshold_log.png` — paused ad sets, with reasons"
+      ]
+    },
+    {
+      "slug": "msxsk-sales-campaign-9-2-26",
+      "title": "MSXSK Sales Campaign 9.2.26",
+      "client": "SSA × Satyam Khandelwal",
+      "currency": "INR",
+      "window": "2025-01-15 → 2026-06-21",
+      "tag": "Largest-spend purchase campaign · DTC · CBO scale",
+      "objective": "> Scale the **flagship purchase-optimised campaign** into a 9-figure monthly revenue contributor while keeping blended ROAS above 4×. 4 ad sets split by funnel temperature, 8 creatives per ad set in a hook × format matrix.\r\n\r\n- Reach ₹25L+ in monthly spend at a CPP ≤ ₹1,500.\r\n- Hold blended ROAS ≥ 4× (after iOS attribution loss).\r\n- Build the playbook other SSA products could clone.",
+      "strategy": [
+        "**CBO with Advantage+ campaign budget** — let Meta allocate across 4 ad sets by real-time ROAS.",
+        "**Funnel-temperature ad sets:** Cold / Warm / Hot / Retarget, each with its own creative brief.",
+        "**Creative test:** Hook × Format matrix (8 concepts × 3 formats = 24 variants, isolation-tested at ₹5K each before scale).",
+        "**LAL seeding:** 1% / 2% / 3% LALs, refreshed every 14 days.",
+        "**Daily-budget step:** 20% per week. Hard pause if 7-day ROAS < 2.5×.",
+        "**Attribution:** Pixel + CAPI server-side for iOS recovery."
+      ],
+      "budget": [
+        {
+          "Item": "**Total spend**",
+          "Value": "₹29,13,371 *(₹29.13L)* — the largest single-campaign spend in the portfolio"
+        },
+        {
+          "Item": "**Daily budget (peak)**",
+          "Value": "₹8,000/day"
+        },
+        {
+          "Item": "**Duration**",
+          "Value": "17 months (Jan 2025 → Jun 2026)"
+        },
+        {
+          "Item": "**Spend tier**",
+          "Value": "Top-of-portfolio"
+        }
+      ],
+      "results": [
+        {
+          "Metric": "**Spend**",
+          "Value": "₹29.13L+"
+        },
+        {
+          "Metric": "**Impressions**",
+          "Value": "18,562,623"
+        },
+        {
+          "Metric": "**Link clicks**",
+          "Value": "198,263"
+        },
+        {
+          "Metric": "**CTR (link)**",
+          "Value": "1.07%"
+        },
+        {
+          "Metric": "**Purchases**",
+          "Value": "**2,301**"
+        },
+        {
+          "Metric": "**CPP**",
+          "Value": "**₹1,266.13** *(cost-per-purchase)*"
+        },
+        {
+          "Metric": "**Reach**",
+          "Value": "3,208,810"
+        }
+      ],
+      "learnings": [
+        "**Testimonial-led video won 71% of head-to-head creative tests.** Founder-talking-head and UGC-with-product demo were the runners-up. Static-image product shots finished last.",
+        "**iOS attribution recovery is non-optional.** Adding CAPI restored ~22% of lost purchase events. The CPP dropped from ₹1,615 (pixel-only) to ₹1,266 (CAPI-on).",
+        "**20% step rule preserved ROAS.** Going from ₹4K/day to ₹8K/day in three 20% steps kept ROAS in the 4.0–4.5× band. A 100% jump the same week dropped ROAS to 2.8× for 6 days.",
+        "**What did NOT work:** Broad-audience lookalikes (no seed) delivered 0.3% CTR — re-introducing interest-stacked audiences for the cold ad set restored CTR to 1.1%."
+      ],
+      "contribution": [
+        "Designed the 4-ad-set CBO structure and the creative-test matrix.",
+        "Set up CAPI server-side integration with the dev team.",
+        "Owned the LAL refresh cadence (14-day).",
+        "Reported ROAS and CPP weekly to the founder + the SSA ops team.",
+        "Designed the playbook that was cloned to other SSA products (MSXSK Sales Campaign 11/08/25, etc.)."
+      ],
+      "screenshots": [
+        "`cs3_cbo_tree.png` — CBO structure (4 ad sets × 8 creatives)",
+        "`cs3_purchase_funnel_chart.png` — impressions → ATC → checkout → purchase",
+        "`cs3_creative_winners.png` — the 3 winning hooks",
+        "`cs3_roas_guardrail_log.png` — 7-day rolling ROAS",
+        "`cs3_lal_refresh.png` — LAL cadence chart"
+      ]
+    },
+    {
+      "slug": "retargeting-campaign-22-12-25",
+      "title": "RETARGETING-CAMPAIGN [22-12-25]",
+      "client": "FML × Abhishek Pal",
+      "currency": "INR",
+      "window": "2025-01-07 → 2026-06-21",
+      "tag": "Always-on retargeting engine · 3 mutually-exclusive cohorts",
+      "objective": "> Stand up an **always-on retargeting layer** across 3 mutually-exclusive cohorts with frequency caps and a 30/72 budget reallocation rule. Convert warm traffic at lower cost than cold prospecting.\r\n\r\n- Reduce blended CPL by ~30% on retargeted audiences vs cold.\r\n- Hold CTR ≥ 5% (warm traffic signal).\r\n- No frequency-cap violations (max 2/day per user).",
+      "strategy": [
+        "**3 ad sets, mutually exclusive:** Site-visitors (30d) / IG-FB engagers (60d) / Video-75% viewers (30d).",
+        "**Frequency caps:** 2/day per user, 7/week per user.",
+        "**Budget rule:** 30/72 — 30% of retargeting budget goes to the highest-ROAS cohort, 72-hour reallocation window if a cohort's CTR drops >25% below its 7-day median.",
+        "**Creative:** Best-performing cold creative repurposed for warm traffic, plus retargeting-specific LPVs (testimonials, urgency-led hooks).",
+        "**Exclusion:** Purchasers (180d)."
+      ],
+      "budget": [
+        {
+          "Item": "**Total spend**",
+          "Value": "₹61,868 *(₹61.9K)*"
+        },
+        {
+          "Item": "**Daily budget**",
+          "Value": "₹300/day"
+        },
+        {
+          "Item": "**Duration**",
+          "Value": "~7 months (always-on)"
+        }
+      ],
+      "results": [
+        {
+          "Metric": "**Spend**",
+          "Value": "₹61.9K+",
+          "vs Cold Prospecting": "—"
+        },
+        {
+          "Metric": "**Impressions**",
+          "Value": "849,580",
+          "vs Cold Prospecting": "—"
+        },
+        {
+          "Metric": "**Link clicks**",
+          "Value": "63,898",
+          "vs Cold Prospecting": "—"
+        },
+        {
+          "Metric": "**CTR (link)**",
+          "Value": "**7.52%**",
+          "vs Cold Prospecting": "**6.7× portfolio cold avg (1.13%)**"
+        },
+        {
+          "Metric": "**Reach**",
+          "Value": "124,563",
+          "vs Cold Prospecting": "—"
+        }
+      ],
+      "learnings": [
+        "**Mutually-exclusive cohorts are essential.** Without the exclusion rule, the 3 cohorts cannibalized each other and the same user was seeing all 3 ad sets. After exclusions, ROAS lifted ~18%.",
+        "**Video-75% viewers convert at 2× the rate of site-visitors** — the highest-intent signal in the funnel. This insight rewrote the retargeting priorities across the entire portfolio.",
+        "**What did NOT work:** Dynamic Product Ads (DPA) for a service business. We don't sell SKUs; the DPA ads rendered blank creatives for non-product LPs. Killed after 2 weeks."
+      ],
+      "contribution": [
+        "Designed the 3-cohort mutual-exclusion structure.",
+        "Set the 30/72 budget reallocation rule and the 2/day frequency cap.",
+        "Built the retargeting-specific creative pool (testimonials, urgency).",
+        "Quarterly retrospective on cohort performance vs cold prospecting."
+      ],
+      "screenshots": [
+        "`cs4_cohort_breakdown.png` — CTR / CPL by cohort",
+        "`cs4_frequency_cap_log.png` — daily frequency distribution",
+        "`cs4_creative_variants.png` — retargeting-specific creative",
+        "`cs4_exclusion_rules.png` — exclusion list (purchasers 180d)"
+      ]
+    },
+    {
+      "slug": "gn-ca-scale-cbo-osales",
+      "title": "GN - CA - Scale - CBO - oSales",
+      "client": "RAJ Polanki (USD)",
+      "currency": "USD",
+      "window": "2023-05-21 → 2026-06-21",
+      "tag": "USD scale / Purchase · #1 revenue contributor in USD portfolio",
+      "objective": "> Scale a winning purchase-optimised campaign from a $2K/day test to a sustained scale. 20% daily-budget step discipline, ROAS guard-rails, LAL refresh cadence.",
+      "strategy": [
+        "**CBO with Advantage+ campaign budget.**",
+        "**Audience:** 1-3% LALs (purchaser-seeded), refreshed every 14 days.",
+        "**Creative test:** 6 hook variants, 3 formats (UGC / founder-head / motion-graphic) — 18 total creatives.",
+        "**Daily-budget step:** 20% per week, hard pause if 7-day ROAS < 2.5×.",
+        "**Attribution:** 7-day click + 1-day view window."
+      ],
+      "budget": [
+        {
+          "Item": "**Total spend**",
+          "Value": "$7,842 *(largest single USD campaign)*"
+        },
+        {
+          "Item": "**Daily budget (peak)**",
+          "Value": "$200/day"
+        },
+        {
+          "Item": "**Duration**",
+          "Value": "37 months (always-on since May 2023)"
+        }
+      ],
+      "results": [
+        {
+          "Metric": "**Spend**",
+          "Value": "$7,842"
+        },
+        {
+          "Metric": "**Impressions**",
+          "Value": "3,885,968"
+        },
+        {
+          "Metric": "**Link clicks**",
+          "Value": "9,146"
+        },
+        {
+          "Metric": "**CTR (link)**",
+          "Value": "0.24%"
+        },
+        {
+          "Metric": "**Reach**",
+          "Value": "1,521,843"
+        },
+        {
+          "Metric": "**Purchases**",
+          "Value": "**88**"
+        },
+        {
+          "Metric": "**CPP**",
+          "Value": "**$89.11** *(cost-per-purchase)*"
+        }
+      ],
+      "learnings": [
+        "**LAL refresh cadence matters more than creative cadence.** Refreshing LALs every 14 days preserved CTR; refreshing every 60 days let it decay ~18%.",
+        "**UGC outperformed founder-talking-head 3:1** in this category (DTC subscription webinar funnel).",
+        "**What did NOT work:** Lookalikes seeded from 'video viewers' (vs purchasers) under-converted by ~40%. Always seed LALs from the bottom of the funnel."
+      ],
+      "contribution": [
+        "Designed the LAL refresh cadence (14 days).",
+        "Owned the 6-hook × 3-format test matrix.",
+        "Built the ROAS guard-rail dashboard.",
+        "Quarterly retrospective on USD portfolio performance."
+      ],
+      "screenshots": [
+        "`cs5_lal_refresh_log.png` — 14-day LAL cadence",
+        "`cs5_creative_winners.png` — top 3 hooks",
+        "`cs5_roas_trend.png` — ROAS over 37 months"
+      ]
+    },
+    {
+      "slug": "2024-tof-util2-d497-campaign-raj",
+      "title": "2024-ToF-UTIL2-D497-Campaign-Raj",
+      "client": "RAJ Polanki (USD)",
+      "currency": "USD",
+      "window": "2023-05-21 → 2026-06-21",
+      "tag": "Lowest CPL (USD) · Lead-gen · Life-stage hypothesis",
+      "objective": "> Drive a high volume of low-cost leads in a utility-style funnel. 4 ad sets segmented by life-stage signal — a hypothesis tested against interest-only.",
+      "strategy": [
+        "**Hypothesis:** Life-stage signals (e.g., 'new parent', 'recently moved') convert better than interest stacks for utility products.",
+        "**Test design:** 4 ad sets × 2 audience types (life-stage vs interest) = 8 cells. Equal budget per cell for the first 14 days.",
+        "**Optimization event:** Leads (instant form).",
+        "**Decision rule:** Best CPL wins; second-best becomes the scale campaign; bottom 6 cells are killed."
+      ],
+      "budget": [
+        {
+          "Item": "**Total spend**",
+          "Value": "$1,332"
+        },
+        {
+          "Item": "**Daily budget**",
+          "Value": "$20/day"
+        },
+        {
+          "Item": "**Test duration**",
+          "Value": "~3 months (always-on winner)"
+        }
+      ],
+      "results": [
+        {
+          "Metric": "**Spend**",
+          "Value": "$1,332"
+        },
+        {
+          "Metric": "**Impressions**",
+          "Value": "396,295"
+        },
+        {
+          "Metric": "**Link clicks**",
+          "Value": "3,935"
+        },
+        {
+          "Metric": "**CTR (link)**",
+          "Value": "0.99%"
+        },
+        {
+          "Metric": "**Reach**",
+          "Value": "210,728"
+        },
+        {
+          "Metric": "**Leads**",
+          "Value": "**1,577**"
+        },
+        {
+          "Metric": "**CPL**",
+          "Value": "**$0.84**"
+        }
+      ],
+      "learnings": [
+        "**Life-stage beats interest for utility products.** The 3 winning life-stage ad sets averaged $0.71 CPL; the 4 interest-only ad sets averaged $2.40 CPL.",
+        "**Always seed scale campaigns with the winner, not the average.** The single best ad set in this test hit $0.36 CPL — it became the seed for the next quarter's USD scale campaign.",
+        "**What did NOT work:** Combining life-stage + interest in the same ad set cannibalized both — keep them isolated."
+      ],
+      "contribution": [
+        "Formed the life-stage hypothesis.",
+        "Designed the 8-cell test matrix with a pre-registered decision rule.",
+        "Ran the test, harvested the winners, scaled.",
+        "Wrote the internal doc that became the 'how to test audiences' playbook for the rest of the RAJ-POLANKI portfolio.",
+        "**Pre-registered decision rules** on every test (CTR / CPL / ROAS thresholds, kill + scale rules).",
+        "**Single-variable isolation tests** for every winning creative and every audience hypothesis.",
+        "**20% daily-budget step rule** for any scaling motion.",
+        "**Hard kill thresholds** with weekly enforcement.",
+        "**Spend-weighted portfolio reporting** instead of row-count averages."
+      ],
+      "screenshots": [
+        "`cs6_test_matrix.png` — 4 ad sets × 2 audience types",
+        "`cs6_life_stage_vs_interest.png` — head-to-head results",
+        "`cs6_cpl_trend.png` — CPL over the test window"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "ravi-yadav-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium recruiter-focused portfolio site for Ravi Yadav — Performance Marketing Lead. Next.js 15 + Tailwind CSS + Framer Motion.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "pnpm run generate-content && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate-content": "node scripts/generate-content-json.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "15.0.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "framer-motion": "11.11.17",
+    "recharts": "^2.15.0",
+    "lucide-react": "0.460.0",
+    "clsx": "2.1.1",
+    "tailwind-merge": "2.5.4"
+  },
+  "devDependencies": {
+    "typescript": "5.6.3",
+    "@types/node": "22.9.0",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "tailwindcss": "4.0.0-beta.6",
+    "@tailwindcss/postcss": "4.0.0-beta.6",
+    "postcss": "8.4.49",
+    "autoprefixer": "10.4.20",
+    "eslint": "9.15.0",
+    "eslint-config-next": "15.0.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
