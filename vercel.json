@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "buildCommand": "node scripts/generate-content-json.mjs && npx next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["bom1", "sin1"],
+  "github": {
+    "silent": true,
+    "autoAlias": true
+  }
+}
