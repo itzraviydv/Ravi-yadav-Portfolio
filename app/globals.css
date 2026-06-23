@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
-  --font-mono: var(--font-geist-mono), ui-monospace, "SF Mono", Menlo, monospace;
+  /* System font stacks — no download, no next/font, no build-time fetch.
+     Inter / SF Pro / Geist fall through to the OS native sans on every platform. */
+  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
 
   /* Vibrant brand palette */
   --color-bg: #050010;

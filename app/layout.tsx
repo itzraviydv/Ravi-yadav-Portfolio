@@ -1,24 +1,16 @@
 // app/layout.tsx
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { PersonJsonLd, WebSiteJsonLd } from "@/components/seo/JsonLd";
 import { SiteBackground } from "@/components/effects/SiteBackground";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-  display: "swap",
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-  display: "swap",
-});
-
+// Geist / Geist Mono are Vercel's proprietary fonts and not in Google Fonts.
+// Loading them via next/font/google fails the build (Failed to find font
+// override values). Use the system font stack instead — it matches the
+// Geist feel on modern macOS / iOS, falls back to a clean sans on
+// Windows / Android, and ships zero bytes of font data.
 const siteUrl = "https://raviyadav.com";
 const title = "Ravi Yadav — Performance Marketing Lead | Meta Ads Specialist";
 const description =
@@ -98,7 +90,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="en">
       <body className="min-h-screen bg-[#050010] text-white antialiased">
         <PersonJsonLd />
         <WebSiteJsonLd />
