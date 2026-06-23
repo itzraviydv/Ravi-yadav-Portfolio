@@ -4,7 +4,6 @@ import { Section } from "@/components/effects/Section";
 import { AnimatedSection } from "@/components/effects/AnimatedSection";
 import {
   Target,
-  TrendingUp,
   BarChart3,
   Sparkles,
   ShoppingCart,

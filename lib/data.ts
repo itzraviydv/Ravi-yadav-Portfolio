@@ -115,7 +115,7 @@ export interface GroupedClient {
   purchases: number;
 }
 
-import { type Currency, type ClientEntry } from "./types";
+import { type Currency } from "./types";
 
 export async function getClientsGroupedByDisplayName(): Promise<GroupedClient[]> {
   const file = await getClients();

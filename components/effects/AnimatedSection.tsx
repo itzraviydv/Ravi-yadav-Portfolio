@@ -28,6 +28,10 @@ export function AnimatedSection({
   // MarginType is a template-literal union; widening the prop to string keeps
   // the public API flexible. The cast below satisfies framer-motion's narrow type.
   const inView = useInView(ref, { once, margin: margin as `${number}% ${number}px` });
+  // `motion[Tag]` returns a union of motion components; the dynamic indexing
+  // pattern needs a cast. ESLint flags `any`, so use `unknown` and then narrow
+  // it to the motion component type framer-motion expects at the JSX site.
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const MotionTag = motion[Tag] as any;
 
   return (

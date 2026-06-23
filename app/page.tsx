@@ -10,8 +10,6 @@ import {
   Linkedin,
   Download,
   Sparkles,
-  TrendingUp,
-  Award,
 } from "lucide-react";
 import { Hero } from "@/components/hero/Hero";
 import { Container } from "@/components/layout/Container";

@@ -36,8 +36,6 @@ function renderMarkdown(s: string): string {
 }
 
 export function CaseStudyBody({ study, prev, next }: CaseStudyBodyProps) {
-  const totalScreens = study.screenshots.length || 5;
-
   return (
     <div className="relative pt-32 pb-20">
       <AuroraBackground variant="subtle" />
@@ -164,7 +162,7 @@ export function CaseStudyBody({ study, prev, next }: CaseStudyBodyProps) {
                 <tbody>
                   {study.results.map((row, i) => (
                     <tr key={i} className="border-b border-white/[0.04] last:border-0 hover:bg-white/[0.02] transition-colors">
-                      {Object.entries(row).map(([k, v], j) => (
+                      {Object.entries(row).map(([, v], j) => (
                         <td
                           key={j}
                           className={`px-5 py-3.5 ${j === 0 ? "text-white/80" : "text-white font-mono"}`}

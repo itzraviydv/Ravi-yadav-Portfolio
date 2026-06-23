@@ -1,5 +1,4 @@
 // app/not-found.tsx
-import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { AuroraBackground } from "@/components/effects/AuroraBackground";
 import { GradientText } from "@/components/effects/GradientText";

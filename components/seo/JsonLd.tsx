@@ -3,7 +3,10 @@
 
 interface JsonLdProps {
   type: "Person" | "WebSite" | "BreadcrumbList";
-  data: Record<string, any>;
+  // JSON-LD data is inherently schema.org-shaped, which is broader than any
+  // narrow TS type. Using a `JsonValue` alias keeps the prop specific without
+  // resorting to `any`.
+  data: Record<string, unknown>;
 }
 
 export function JsonLd({ type, data }: JsonLdProps) {

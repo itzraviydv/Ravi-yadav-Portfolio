@@ -22,6 +22,18 @@ interface MonthlyTimelineChartProps {
 
 type Metric = "spend" | "reach" | "impressions" | "leads" | "clicks" | "lpv";
 
+interface TooltipPayloadEntry {
+  dataKey: string;
+  value: number;
+}
+
+interface CustomTooltipProps {
+  active?: boolean;
+  payload?: TooltipPayloadEntry[];
+  label?: string;
+  metric: Metric;
+}
+
 const METRIC_CONFIG: Record<Metric, {
   label: string;
   gradient: [string, string];
@@ -72,12 +84,12 @@ const METRIC_CONFIG: Record<Metric, {
   },
 };
 
-function CustomTooltip({ active, payload, label, metric }: any) {
+function CustomTooltip({ active, payload, label, metric }: CustomTooltipProps) {
   if (!active || !payload || !payload.length) return null;
-  const cfg = METRIC_CONFIG[metric as Metric];
-  const inrVal = payload.find((p: any) => p.dataKey === "inr")?.value as number | undefined;
-  const usdVal = payload.find((p: any) => p.dataKey === "usd")?.value as number | undefined;
-  const combinedVal = payload.find((p: any) => p.dataKey === "combined")?.value as number | undefined;
+  const cfg = METRIC_CONFIG[metric];
+  const inrVal = payload.find((p) => p.dataKey === "inr")?.value;
+  const usdVal = payload.find((p) => p.dataKey === "usd")?.value;
+  const combinedVal = payload.find((p) => p.dataKey === "combined")?.value;
   return (
     <div className="rounded-xl border border-white/10 bg-black/90 backdrop-blur-xl p-3 shadow-2xl min-w-[200px]">
       <div className="text-xs font-medium text-white/60 mb-2">{label}</div>

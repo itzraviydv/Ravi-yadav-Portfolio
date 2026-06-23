@@ -1,11 +1,9 @@
 // app/resume/page.tsx
 import type { Metadata } from "next";
-import { promises as fs } from "node:fs";
-import path from "node:path";
 import { Section } from "@/components/effects/Section";
 import { AnimatedSection } from "@/components/effects/AnimatedSection";
 import { Button } from "@/components/ui/Button";
-import { Download, Linkedin, Mail, Sparkles } from "lucide-react";
+import { Download, Linkedin, Mail } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Resume",
@@ -90,15 +88,7 @@ const BULLETS = [
   },
 ];
 
-export default async function ResumePage() {
-  let resumeText = "";
-  try {
-    const fp = path.join(process.cwd(), "..", "resume-achievements.md");
-    resumeText = await fs.readFile(fp, "utf-8");
-  } catch {
-    resumeText = "";
-  }
-
+export default function ResumePage() {
   return (
     <Section
       eyebrow="Resume"

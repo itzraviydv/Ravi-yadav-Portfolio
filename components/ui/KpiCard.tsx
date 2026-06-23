@@ -2,9 +2,8 @@
 "use client";
 
 import * as React from "react";
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
-import { AnimatedNumber } from "@/components/effects/AnimatedNumber";
 
 type Accent = "default" | "purple" | "pink" | "cyan" | "amber" | "emerald";
 

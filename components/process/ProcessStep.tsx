@@ -3,6 +3,7 @@
 
 import * as React from "react";
 import { motion } from "framer-motion";
+import type { LucideIcon } from "lucide-react";
 import * as LucideIcons from "lucide-react";
 import { type ProcessStep as ProcessStepType } from "@/lib/types";
 
@@ -11,7 +12,7 @@ interface ProcessStepProps {
   index: number;
 }
 
-const ICON_MAP: Record<string, any> = {
+const ICON_MAP: Record<string, LucideIcon> = {
   Search: LucideIcons.Search,
   FlaskConical: LucideIcons.FlaskConical,
   Users: LucideIcons.Users,

@@ -1,5 +1,6 @@
 // app/experience/page.tsx
 import type { Metadata } from "next";
+import type { LucideIcon } from "lucide-react";
 import { Section } from "@/components/effects/Section";
 import { AnimatedSection } from "@/components/effects/AnimatedSection";
 import { Badge } from "@/components/ui/Badge";
@@ -132,7 +133,7 @@ export default async function ExperiencePage() {
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {PRINCIPLES.map((p, i) => {
-            const Icon = (LucideIcons as any)[p.icon];
+            const Icon = (LucideIcons as unknown as Record<string, LucideIcon>)[p.icon];
             return (
               <AnimatedSection key={p.title} delay={0.05 * i}>
                 <div className="group relative h-full rounded-2xl p-6 bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] hover:border-white/[0.18] transition-all duration-500 overflow-hidden">

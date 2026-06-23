@@ -2,17 +2,15 @@
 "use client";
 
 import * as React from "react";
-import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight, Download, Linkedin, Mail, Sparkles } from "lucide-react";
 import { Container } from "@/components/layout/Container";
 import { AuroraBackground } from "@/components/effects/AuroraBackground";
 import { GradientText } from "@/components/effects/GradientText";
-import { AnimatedNumber } from "@/components/effects/AnimatedNumber";
 import { Button } from "@/components/ui/Button";
 import { KpiGrid } from "./KpiGrid";
 import { type HeadlineMetrics } from "@/lib/types";
-import { fmtIntLakhCrore, fmtMoneyLakhCrore } from "@/lib/formatters";
+import { fmtIntLakhCrore } from "@/lib/formatters";
 
 interface HeroProps {
   metrics: HeadlineMetrics;
