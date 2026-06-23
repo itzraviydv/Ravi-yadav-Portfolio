@@ -2,19 +2,26 @@
 // Reads the analyzed markdown files in C:/Foremost Leads/ and writes
 // structured JSON to portfolio/content/ for the Next.js site.
 //
-// Inputs:
-//   ../case-studies.md             (6 case studies in markdown)
-//   ../proof-of-work.md            (visual inventory)
-//   ../reports/portfolio-data-summary.md   (per-client breakdown + top-10 tables)
-//   ../reports/monthly_aggregates.json     (38-month timeline)
+// Inputs (only required when running locally with the source files available):
+//   ../case-studies.md                              (6 case studies in markdown)
+//   ../proof-of-work.md                             (visual inventory)
+//   ../reports/portfolio-data-summary.md            (per-client + top-10 tables)
 //
-// Outputs:
+// Outputs (always written; committed JSON is used as a fallback if sources are missing):
 //   content/case-studies.json      (6 case studies, structured)
 //   content/process.json           (5 process steps)
 //   content/proof-of-work.json     (artifact inventory)
 //   content/clients.json           (6 client entries)
+//   content/top-campaigns.json     (top-N tables from portfolio-data-summary.md)
 //
-// Re-run after editing the .md files:
+// Behaviour:
+//   - Local dev: regenerates from the .md files every time.
+//   - CI / Vercel build: if the .md source files are missing (which is the case
+//     on Vercel, since they live outside the repo), the script SKIPS regeneration
+//     for that file. The committed content/*.json is already up to date and will
+//     be picked up by the Next.js build. This keeps the build idempotent.
+//
+// Re-run after editing the .md files (locally):
 //   node scripts/generate-content-json.mjs
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
@@ -31,8 +38,16 @@ if (!existsSync(CONTENT_DIR)) mkdirSync(CONTENT_DIR, { recursive: true });
 // ---------------------------------------------------------------------------
 // Helpers
 // ---------------------------------------------------------------------------
-function read(path) {
-  return readFileSync(join(FOREMOST, path), "utf-8");
+function read(path, optional = false) {
+  const fullPath = join(FOREMOST, path);
+  if (!existsSync(fullPath)) {
+    if (optional) {
+      console.log(`  (skip) ${path} — not found, keeping existing content/${path.replace(".md", ".json")}`);
+      return null;
+    }
+    throw new Error(`Source file not found: ${fullPath}`);
+  }
+  return readFileSync(fullPath, "utf-8");
 }
 
 function writeJson(path, data) {
@@ -372,8 +387,9 @@ function parseClients() {
 // Top campaigns tables from portfolio-data-summary.md
 // ---------------------------------------------------------------------------
 function parseTopCampaigns() {
-  const md = read("reports/portfolio-data-summary.md");
+  const md = read("reports/portfolio-data-summary.md", true);
   const out = { bySpendINR: [], bySpendUSD: [], byReach: [], byCTR: [], lowestCPLINR: [], lowestCPLUSD: [], lowestCPMINR: [], lowestCPMUSD: [] };
+  if (!md) return out; // source file not available — keep existing content/top-campaigns.json
   function grabTable(header) {
     const idx = md.indexOf(header);
     if (idx < 0) return [];
@@ -413,28 +429,39 @@ function parseTopCampaigns() {
 // ---------------------------------------------------------------------------
 console.log("Generating content JSON...");
 
-const csMd = read("case-studies.md");
-const powMd = read("proof-of-work.md");
+const csMd = read("case-studies.md", true);
+const powMd = read("proof-of-work.md", true);
 
-writeJson("case-studies.json", {
-  generated: "2026-06-21",
-  source: "case-studies.md",
-  count: 6,
-  studies: parseCaseStudies(csMd),
-});
+if (csMd) {
+  writeJson("case-studies.json", {
+    generated: "2026-06-21",
+    source: "case-studies.md",
+    count: 6,
+    studies: parseCaseStudies(csMd),
+  });
+} else {
+  console.log("  (skip) case-studies.json — source not available");
+}
 
+if (powMd) {
+  writeJson("proof-of-work.json", {
+    generated: "2026-06-21",
+    source: "proof-of-work.md",
+    groups: parseProofOfWork(powMd),
+  });
+} else {
+  console.log("  (skip) proof-of-work.json — source not available");
+}
+
+// process.json is generated from the case studies (hardcoded patterns) — always write
 writeJson("process.json", {
   generated: "2026-06-21",
   source: "case-studies.md cross-case-study patterns",
   steps: buildProcess(),
 });
 
-writeJson("proof-of-work.json", {
-  generated: "2026-06-21",
-  source: "proof-of-work.md",
-  groups: parseProofOfWork(powMd),
-});
-
+// clients.json: data comes from the hardcoded totals in this script (matching portfolio-metrics.md)
+// Always written — no external source required.
 writeJson("clients.json", {
   generated: "2026-06-22",
   source: "reports/portfolio-data-summary.md + reports/portfolio-metrics.md",
@@ -444,10 +471,17 @@ writeJson("clients.json", {
   clients: parseClients(),
 });
 
-writeJson("top-campaigns.json", {
-  generated: "2026-06-21",
-  source: "reports/portfolio-data-summary.md",
-  ...parseTopCampaigns(),
-});
+// top-campaigns.json: needs portfolio-data-summary.md; skip if not available
+const topCampaigns = parseTopCampaigns();
+const hasTopData = Object.values(topCampaigns).some(arr => arr.length > 0);
+if (hasTopData) {
+  writeJson("top-campaigns.json", {
+    generated: "2026-06-21",
+    source: "reports/portfolio-data-summary.md",
+    ...topCampaigns,
+  });
+} else {
+  console.log("  (skip) top-campaigns.json — source not available");
+}
 
 console.log("Done.");
