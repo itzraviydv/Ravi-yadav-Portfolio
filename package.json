@@ -5,7 +5,7 @@
   "description": "Premium recruiter-focused portfolio site for Ravi Yadav — Performance Marketing Lead. Next.js 15 + Tailwind CSS + Framer Motion.",
   "scripts": {
     "dev": "next dev",
-    "build": "pnpm run generate-content && next build",
+    "build": "node scripts/generate-content-json.mjs && next build",
     "start": "next start",
     "lint": "next lint",
     "generate-content": "node scripts/generate-content-json.mjs",
