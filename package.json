@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "generate-content": "node scripts/generate-content-json.mjs",
+    "build-resume": "node scripts/build-resume.mjs",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
