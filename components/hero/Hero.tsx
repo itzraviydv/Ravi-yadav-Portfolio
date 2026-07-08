@@ -96,7 +96,7 @@ export function Hero({ metrics }: HeroProps) {
             <Button
               size="lg"
               variant="ghost"
-              href="/resume"
+              href="https://drive.google.com/file/d/1w_pXLnsghfMRqWYbpzIVVslicBrnuEH0/view?usp=sharing"
               icon={<Download className="h-4 w-4" />}
             >
               Resume
