@@ -100,7 +100,7 @@ export default function ResumePage() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-10">
         <Button
           size="lg"
-          href="/resume.pdf"
+          href="https://drive.google.com/file/d/1w_pXLnsghfMRqWYbpzIVVslicBrnuEH0/view?usp=sharing"
           download
           icon={<Download className="h-4 w-4" />}
         >
